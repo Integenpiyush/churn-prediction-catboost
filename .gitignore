@@ -1,1 +1,18 @@
+# Dataset — download from Kaggle link in README
+data/*.csv
+data/*.zip
 
+# Kaggle credentials — NEVER upload this
+kaggle.json
+
+# Model files — too large for GitHub
+*.pkl
+*.joblib
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# WandB local files
+wandb/
