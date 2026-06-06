@@ -8,9 +8,10 @@ import matplotlib.pyplot as plt
 from catboost import CatBoostClassifier
 
 # Load model and scaler
-model = pickle.load(open("final_model_v3.pkl", "rb"))
-scaler = pickle.load(open("scaler_v3.pkl", "rb"))
-
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model = pickle.load(open(os.path.join(BASE_DIR, "final_model_v3.pkl"), "rb"))
+scaler = pickle.load(open(os.path.join(BASE_DIR, "scaler_v3.pkl"), "rb"))
 # Feature columns after preprocessing
 feature_cols = [
     "gender", "SeniorCitizen", "Partner", "Dependents",
