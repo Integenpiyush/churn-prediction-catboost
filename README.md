@@ -120,3 +120,6 @@ churn-prediction-catboost/
 1. Download dataset from Kaggle: Telco Customer Churn
 2. Run notebooks in order: 01 → 02 → 03
 3. Run Streamlit app: streamlit run app/app.py
+
+## Experiment Tracking
+![WandB Dashboard](notebooks/wandb_dashboard.png)
