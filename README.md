@@ -8,8 +8,7 @@ Benchmarked against published Kaggle ensembles — single CatBoost
 model (AUC 0.8421) outperforms a 4-model stacked ensemble (AUC 0.8301).
 
 ## Live App
-[Click here to try the app](your-streamlit-link-here)
-
+[Click here to try the app](https://churn-prediction-catboost-cxmqwjqgb7ktkqemvmyp5f.streamlit.app/)
 ## Dataset
 Telco Customer Churn — Kaggle (7,032 rows, 20 features after cleaning)
 
